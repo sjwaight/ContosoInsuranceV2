@@ -1,0 +1,10 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+      "PolicyStorageUrl": "https://YOURACCOUNT.blob.core.windows.net/policies",
+      "PolicyStorageSas": "?sv=YOUR_READ_ONLY_SAS_TOKEN"
+    }
+  }
+  
