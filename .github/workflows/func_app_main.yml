@@ -39,7 +39,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'contoso-func-XXXXXXX'
+          app-name: 'contoso-func-aqgqkrkazqw3u'
           slot-name: 'production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.FUNC_APP_SERVICE_PUBLISH_PROFILE }}
