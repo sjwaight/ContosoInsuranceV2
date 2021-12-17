@@ -53,7 +53,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'contoso-api-XXXXXXXX'
+          app-name: 'contoso-api-aqgqkrkazqw3u'
           slot-name: 'production'
           publish-profile: ${{ secrets.API_APP_SERVICE_PUBLISH_PROFILE }}
           package: .
